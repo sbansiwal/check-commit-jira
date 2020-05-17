@@ -21,7 +21,7 @@ jobs:
 
     - name: Find Issue Key
       id: find
-      uses: atlassian/gajira-find-issue-key
+      uses: atlassian/gajira-find-issue-key@master
       with:
         from: commits
 
