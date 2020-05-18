@@ -1,1 +1,1 @@
-# check-commit-j
+# check-commit-jira
