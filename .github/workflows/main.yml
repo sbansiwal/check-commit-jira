@@ -1,7 +1,5 @@
 on:
-  push:
-  pull_request:
-    types: ['opened', 'closed']
+  [push]
 
 name: Test Find Issue Key
 
