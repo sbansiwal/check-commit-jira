@@ -1,2 +1,2 @@
 # check-commit-jira
-1st change
+2nd change
