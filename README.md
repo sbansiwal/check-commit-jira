@@ -1,2 +1,2 @@
 # check-commit-jira
-3rd change
+test 1
