@@ -1,2 +1,2 @@
 # check-commit-jira
-test 7
+test 8
