@@ -20,7 +20,7 @@ jobs:
 
     - name: Find Issue Key
       id: find
-      uses: sunil-bansiwal/gajira-find-issue-key@master
+      uses: sunil-bansiwal/find-jira-issue@master
       with:
         from: commits
 
