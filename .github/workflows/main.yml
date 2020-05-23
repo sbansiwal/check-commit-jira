@@ -1,11 +1,7 @@
 on:
   [push]
   
-env:
-  icon: 'book-open'
-  color: 'blue'
-  
-name: Jira check
+name: Jira Check
 
 jobs:
   test-find-issue-key:
