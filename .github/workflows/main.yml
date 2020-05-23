@@ -1,7 +1,7 @@
 on:
   [push]
-
-name: Test Find Issue Key
+  
+name: Jira Check
 
 jobs:
   test-find-issue-key:
