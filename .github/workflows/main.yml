@@ -1,6 +1,10 @@
 on:
   [push]
-
+  
+env:
+  icon: 'book-open'
+  color: 'blue'
+  
 name: Jira check
 
 jobs:
