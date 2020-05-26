@@ -1,2 +1,2 @@
 # check-commit-jira
-check
+updates
