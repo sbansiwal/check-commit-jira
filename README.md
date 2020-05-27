@@ -1,6 +1,6 @@
-The workflow file is located at <strong>.github/workflows/main.yml</strong>
+<p>The workflow file is located at <strong>.github/workflows/main.yml</strong></p>
 
-There is 1 job running in this workflow file which is "Find Issue Key"
+<p>There is 1 job running in this workflow file which is <strong>"Find Issue Key"</strong></p>
 
 <p>There are 3 steps in this job:</p>
 <ol>
@@ -9,13 +9,16 @@ There is 1 job running in this workflow file which is "Find Issue Key"
    <li>Get Issue Key</li>
 </ol>
 
-Each of these steps uses an action code for execution
+<p>Each of these steps uses an action code for execution</p>
 
-The steps are explained as under:
-
-1) Checkout
-   Action code ref - actions/checkout@master
+<p>The steps are explained as under</p>:
+<ol>
+   <li><p>Checkout</p>
+   <p>Action code ref - actions/checkout@master
    This action checks-out your repository under $GITHUB_WORKSPACE, so your workflow can access it.
+   </p>
+   </li>   
+</ol>   
    
 2) Login
    Action code ref - atlassian/gajira-login@master
@@ -75,6 +78,3 @@ The steps are explained as under:
    Writes fields to CLI config file at $HOME/.jira.d/config.yml
    issue - a key of a found issue
   
-  
-
-
