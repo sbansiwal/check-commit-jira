@@ -25,7 +25,7 @@
   <li><h2>Login</h2>
    <p>Action code ref - atlassian/gajira-login@master<br />
    Used to store credentials for later use by other Jira Actions<br />
-   <h3>Action Spec:</h3> </br>
+   <h3>Action Spec:</h3>
    
    <h4>Enviroment variables:</h4>
    JIRA_BASE_URL - URL of Jira instance. Example: https://<yourdomain>.atlassian.net<br />
