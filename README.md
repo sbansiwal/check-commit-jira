@@ -1,4 +1,4 @@
-The workflow file is located at .github/workflows/main.yml
+The workflow file is located at <em>.github/workflows/main.yml</em>
 
 There is 1 job running in this workflow file which is "Find Issue Key"
 
