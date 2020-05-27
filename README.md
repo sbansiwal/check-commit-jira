@@ -2,10 +2,12 @@ The workflow file is located at .github/workflows/main.yml
 
 There is 1 job running in this workflow file which is "Find Issue Key"
 
-There are 3 steps in this job:
-- Checkout
-- Login
-- Get Issue Key
+<p>There are 3 steps in this job:</p>
+<ol>
+   <li>Checkout</li>
+   <li>Login</li>
+   <li>Get Issue Key</li>
+</ol>
 
 Each of these steps uses an action code for execution
 
