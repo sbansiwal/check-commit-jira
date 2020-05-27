@@ -14,8 +14,8 @@
 <p>The steps are explained as under</p>:
 <ol>
    <li><p>Checkout</p>
-   <p>Action code ref - actions/checkout@master_
-   This action checks-out your repository under $GITHUB_WORKSPACE, so your workflow can access it._
+   <p>Action code ref - actions/checkout@master<br />
+   This action checks-out your repository under $GIT HUB_WORKSPACE, so your workflow can access it<br />
    </p>
    </li>   
 </ol>   
