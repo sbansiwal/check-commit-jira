@@ -3,6 +3,7 @@
 <p>There is 1 job running in this workflow file which is <strong>"Find Issue Key"</strong></p>
 
 <p>There are 3 steps in this job:</p>
+
 <ol>
    <li>Checkout</li>
    <li>Login</li>
