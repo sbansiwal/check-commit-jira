@@ -15,13 +15,13 @@ Each of these steps uses an action code for execution
 
 The steps are explained as under: 
 
-## 1) Checkout
-- Action code ref - actions/checkout@master
+## Checkout
+- Action code ref - [actions/checkout@master](https://github.com/actions/checkout)
 - Use - This action checks-out your repository under $GIT HUB_WORKSPACE, so your workflow can access it
 
    
-## 2) Login
-- Action code ref - atlassian/gajira-login@master
+## Login
+- Action code ref - [atlassian/gajira-login@master](https://github.com/atlassian/gajira-login)
 - Use - Used to store credentials for later use by other Jira Actions
 
 ### Action Spec
@@ -35,19 +35,19 @@ The steps are explained as under:
  - None
 
 #### Writes fields to config file at $HOME/jira/config.yml:
-- email - user email
-- token - api token
-- baseUrl - URL for Jira instance
+- `email` - user email
+- `token` - api token
+- `baseUrl` - URL for Jira instance
 
 #### Writes fields to CLI config file at $HOME/.jira.d/config.yml:
-- endpoint - URL for Jira instance
-- login - user email
+- `endpoint` - URL for Jira instance
+- `login` - user email
 
 #### Writes env to file at $HOME/.jira.d/credentials:
 - `JIRA_API_TOKEN` - Jira API token to use with CLI
   
-## 3) Get Issue Key
-- Action code ref - sunil-bansiwal/find-jira-issue@master
+## Get Issue Key
+- Action code ref - [sunil-bansiwal/find-jira-issue@master](https://github.com/sunil-bansiwal/find-jira-issue)
 - Use - Finds Jira issue key from the commit message in the Pull request
    
 #### Cases when this step fails the workflow:
@@ -63,18 +63,18 @@ The steps are explained as under:
 - None
    
 #### Inputs:
-- from - Find from predefined place (should be either 'branch', or 'commits', default is 'commits')
+- `from` - Find from predefined place (should be either 'branch', or 'commits', default is 'commits')
 
 #### Outputs:
-- issue - Key of the found issue
-- status - Status of the issue
+- `issue` - Key of the found issue
+- `status` - Status of the issue
    
 #### Reads fields from config file at $HOME/jira/config.yml:
 - None
 
 #### Writes fields to config file at $HOME/jira/config.yml:
-- issue - a key of a found issue
+- `issue` - a key of a found issue
    
 #### Writes fields to CLI config file at $HOME/.jira.d/config.yml:
-- issue - a key of a found issue
+- `issue` - a key of a found issue
   
