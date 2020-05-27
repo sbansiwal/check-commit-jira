@@ -28,9 +28,9 @@
    <h3>Action Spec:</h3>
    
    <h4>Enviroment variables:</h4>
-   JIRA_BASE_URL - URL of Jira instance. Example: https://<yourdomain>.atlassian.net<br />
-   JIRA_API_TOKEN - Access Token for Authorization. Example: HXe8DGg1iJd2AopzyxkFB7F2 (How To)<br />
-   JIRA_USER_EMAIL - email of the user for which Access Token was created for . Example: human@example.com<br />
+   - `JIRA_BASE_URL` - URL of Jira instance. Example: https://<yourdomain>.atlassian.net
+   - `JIRA_API_TOKEN` - Access Token for Authorization. Example: HXe8DGg1iJd2AopzyxkFB7F2 
+   - `JIRA_USER_EMAIL` - email of the user for which Access Token was created for . Example: human@example.com
 
    <h4>Arguments:</h4>
    None<br />
