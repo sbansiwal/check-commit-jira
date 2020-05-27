@@ -1,3 +1,5 @@
+# Find Jira Issue
+
 <p>The workflow file is located at <strong>.github/workflows/main.yml</strong></p>
 
 <p>There is 1 job running in this workflow file which is <strong>"Find Issue Key"</strong></p>
@@ -12,22 +14,21 @@
 
 <p>Each of these steps uses an action code for execution</p>
 
-<p>The steps are explained as under</p>:
+<p>The steps are explained as under:</p>
 <ol>
    <li><p>Checkout</p>
    <p>Action code ref - actions/checkout@master<br />
    This action checks-out your repository under $GIT HUB_WORKSPACE, so your workflow can access it<br />
    </p>
    </li>   
-</ol>   
    
-2) Login
-   Action code ref - atlassian/gajira-login@master
-   Used to store credentials for later use by other Jira Actions
-
-   Action Spec:
+  <li><p>Login</p>
+   <p>Action code ref - atlassian/gajira-login@master<br />
+   Used to store credentials for later use by other Jira Actions<br />
    
-   Enviroment variables:
+   <h3>Action Spec:</h3> </br>
+   
+   <h4>Enviroment variables:</h4>
    JIRA_BASE_URL - URL of Jira instance. Example: https://<yourdomain>.atlassian.net
    JIRA_API_TOKEN - Access Token for Authorization. Example: HXe8DGg1iJd2AopzyxkFB7F2 (How To)
    JIRA_USER_EMAIL - email of the user for which Access Token was created for . Example: human@example.com
