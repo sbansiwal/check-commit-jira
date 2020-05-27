@@ -55,9 +55,9 @@ The steps are explained as under:
 - When the Jira issue key is invalid
 - When the Jira issue is marked as "Done" in the Jira account
    
-- If the commit message does not fall under the above given cases, the workflow (checker) is passed and the developer can       create a Pull request else he won't be able to unless he is the admin of the repo
+<strong>If the commit message does not fall under the above given cases, the workflow (checker) is passed and the developer can create a Pull request else he won't be able to unless he is the admin of the repo</strong>
 
-### Action Spec:
+### Action Spec
    
 #### Environment variables:
 - None
