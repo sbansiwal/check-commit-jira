@@ -20,7 +20,7 @@ The steps are explained as under:
    Used to store credentials for later use by other Jira Actions
 
    Action Spec:
-
+   
    Enviroment variables:
    JIRA_BASE_URL - URL of Jira instance. Example: https://<yourdomain>.atlassian.net
    JIRA_API_TOKEN - Access Token for Authorization. Example: HXe8DGg1iJd2AopzyxkFB7F2 (How To)
