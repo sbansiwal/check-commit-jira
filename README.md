@@ -25,7 +25,6 @@
   <li><h2>Login</h2>
    <p>Action code ref - atlassian/gajira-login@master<br />
    Used to store credentials for later use by other Jira Actions<br />
-   
    <h3>Action Spec:</h3> </br>
    
    <h4>Enviroment variables:</h4>
@@ -59,7 +58,6 @@
    - When the Jira issue is marked as "Done" in the Jira account<br />
    
    If the commit message does not fall under the above given cases, the workflow (checker) is passed and the developer can        create a Pull request else he won't be able to unless he is the admin of the repo.<br />
-   
    <h3>Action Spec:</h3>
    
    <h4>Environment variables</h4>
