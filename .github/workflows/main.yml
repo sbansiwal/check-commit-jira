@@ -7,6 +7,9 @@ jobs:
   test-find-issue-key:
     name: Find Issue Key
     runs-on: ubuntu-latest
+    if: failure()job
+    outputs: ${{Checker failed}}
+    
     steps:
     - name: Checkout
       uses: actions/checkout@master
