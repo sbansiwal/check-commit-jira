@@ -33,7 +33,6 @@ The steps are explained as under:
 
 #### Arguments:</h4>
  - None
-
 #### Writes fields to config file at $HOME/jira/config.yml:
 - `email` - user email
 - `token` - api token
