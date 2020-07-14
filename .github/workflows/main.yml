@@ -23,7 +23,7 @@ jobs:
       id: find
       uses: sunil-bansiwal/find-jira-issue@master
       with:
-        from: commits 
+        from: pull_request
            
     - name: Find issue info
       run: echo "Issue ${{ steps.find.outputs.issue }} was found"
